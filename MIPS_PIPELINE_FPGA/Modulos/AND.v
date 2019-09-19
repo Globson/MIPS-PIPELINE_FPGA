@@ -1,4 +1,4 @@
-module Door_BNE_BEQ (branch,flag,out); //substituto para porte AND na implementacao de bne e beq.
+module Door_BNE_BEQ (branch,flag,out); //substituto para porta AND na implementacao de bne e beq.
   input [1:0] branch; //00 para desativado, 11 para beq, 01 para bne;
   input flag;
   output reg out;

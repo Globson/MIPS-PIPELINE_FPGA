@@ -22,7 +22,7 @@ module ID_EXE(clk,reset,ALUSrc_In,EX_ReadData1_Out,EX_ReadData2_Out,EX_Saida_Ext
 
 
 
-always @(posedge clk or reset) begin
+always @(posedge clk) begin //or reset
   if(reset)begin
     EX_PC_Out <= 0;
     EX_ReadData1_Out <= 0;

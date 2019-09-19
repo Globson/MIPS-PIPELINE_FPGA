@@ -43,4 +43,4 @@ always @ (negedge Clk) begin
   end
 end
 
-endmodule //Data_memory2
+endmodule //Data_Memory

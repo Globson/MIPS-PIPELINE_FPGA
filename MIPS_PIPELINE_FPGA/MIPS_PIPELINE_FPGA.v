@@ -17,7 +17,6 @@
 `include "Pipeline/Regs_Pipeline/ID_EXE.v"
 `include "Pipeline/Regs_Pipeline/IF_ID.v"
 `include "Pipeline/Regs_Pipeline/MEM_WB.v"
-`include "Modulos/Clock.v"
 `include "Modulos/Conversor_7Seg.v"
 `include "Modulos/Memoria_de_exibicao.v"
 `include "Modulos/DivisorClk.v"
@@ -135,13 +134,7 @@ wire [1:0]EX_ALUOp;
 //  Structural coding
 //=======================================================
 
-Pipeline_PC PC (
-		.PC_Freeze(PC_Freeze),
-		.reset(reset),
-		.clk(Clock),
-		.entrada(PC_IN),
-		.saida(PC_Out)
-);
+Pipeline_PC PCUNIT (.PC_Freeze(PC_Freeze),.reset(reset),.clk(Clock),.entrada(PC_IN),.saida(PC_Out));
 
 Memoria_instrucoes IMemory(.endereco(PC_Out),.reset(reset),.instrucao(Instruction));
 
@@ -357,7 +350,6 @@ Forwarding Forward_Module(
 		.ForwardA_Out(ForwardA),
 		.ForwardB_Out(ForwardB)
 );
-
 
 DivisorClk CLK(.clk(CLOCK_50),.clk_out(Clock));
 

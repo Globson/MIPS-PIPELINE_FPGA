@@ -6,7 +6,7 @@ module Forwarding(MEM_WriteRegister_In,reset,WB_WriteRegister_In,MEM_RegWrite_In
     output reg[1:0]ForwardA_Out;
     output reg[1:0]ForwardB_Out;
 
-	always @(posedge clk or reset)begin
+	always @(posedge clk)begin //or reset
     if(reset)begin
       ForwardA_Out = 0;
       ForwardB_Out = 0;
@@ -32,8 +32,4 @@ module Forwarding(MEM_WriteRegister_In,reset,WB_WriteRegister_In,MEM_RegWrite_In
       end
 	  end
   end
-  /*
-  initial begin
-      $monitor("\n %b\n %b \n %b",EX_Instruction_In[20:16],MEM_WriteRegister_In,EX_Instruction_In);
-  end//*/
 endmodule // Forwardig

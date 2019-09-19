@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 19 17:43:15 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MIPS_PIPELINE_FPGA
+Top-level Entity Name : MIPS_PIPELINE_FPGA
+Family : Cyclone IV E
+Total logic elements : 16,357
+    Total combinational functions : 13,841
+    Dedicated logic registers : 3,051
+Total registers : 3051
+Total pins : 108
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 22
+Total PLLs : 0

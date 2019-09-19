@@ -12,7 +12,7 @@ module EXE_MEM(clk,reset,EX_MemWrite_In,EX_MemRead_In,EX_MemtoReg_In,EX_RegWrite
   output reg[4:0] MEM_WriteRegister_Out;
 
 
-  always @(posedge clk or reset) begin
+  always @(posedge clk) begin //or reset
     if(reset)begin
       MEM_Branch_Out <= 0;
       MEM_ALUresult_Out <= 0;

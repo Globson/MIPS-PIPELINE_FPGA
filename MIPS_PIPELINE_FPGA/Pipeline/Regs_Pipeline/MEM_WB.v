@@ -9,7 +9,7 @@ module MEM_WB(clk,reset,MEM_RegWrite_In, MEM_MemtoReg_In,ReadData_In, MEM_ALUres
   output reg[4:0] WB_Index_WriteReg_Out;
 
 
-always @(posedge clk or reset) begin
+always @(posedge clk) begin //or reset
     if(reset)begin
       WB_readData_Out <= 0;
       WB_ALUresult_Out <= 0;

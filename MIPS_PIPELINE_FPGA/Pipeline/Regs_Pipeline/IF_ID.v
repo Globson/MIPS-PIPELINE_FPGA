@@ -6,7 +6,7 @@ module IF_ID (clk,reset,IF_IDWrite_In,Instruction_In,SaidaSOMA4_In,ID_Instructio
   output reg[31:0] ID_PC_Out;
 
 
-always @(posedge clk or reset) begin
+always @(posedge clk) begin //or reset
   if(reset)begin
     ID_PC_Out <= 0;
     ID_Instruction_Out <= 0;

@@ -5,7 +5,7 @@ module Harzard (ID_Instruction_In,reset,EX_Instruction_In,EX_MemRead_In,PC_Freez
   output reg PC_Freeze_Out, Controller_Write_Out, IF_ID_Stall_Write_Out;
 
 
-always @(ID_Instruction_In or reset) begin
+always @(ID_Instruction_In) begin //or reset
     if(reset)begin
       Controller_Write_Out = 0;
       IF_ID_Stall_Write_Out = 0;

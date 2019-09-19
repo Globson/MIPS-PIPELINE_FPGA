@@ -4,7 +4,7 @@ module Controller (clk,Opcode,Controller_Write,RegDst,Branch,MemRead,MemtoReg,AL
   output reg RegDst,MemRead,MemtoReg,MemWrite,ALUSrc,RegWrite;
   output reg [1:0] ALUOp;
   output reg [1:0] Branch;
-  always @ ( negedge clk or Opcode ) begin
+  always @ ( Opcode ) begin //(negedge clk or Opcode) 
       if(Controller_Write == 1 ) begin //Bolha Stall
         RegDst <= 1'b0;
         ALUSrc <= 1'b0;
