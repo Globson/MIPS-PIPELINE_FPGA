@@ -1,5 +1,5 @@
 Fitter report for MIPS_PIPELINE_FPGA
-Thu Sep 19 17:45:17 2019
+Tue Sep 24 16:52:04 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Sep 19 17:45:17 2019       ;
+; Fitter Status                      ; Successful - Tue Sep 24 16:52:04 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MIPS_PIPELINE_FPGA                          ;
 ; Top-level Entity Name              ; MIPS_PIPELINE_FPGA                          ;
@@ -154,14 +154,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.07        ;
+; Average used               ; 1.08        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.3%      ;
-;     Processor 3            ;   2.2%      ;
-;     Processor 4            ;   2.1%      ;
+;     Processor 2            ;   2.7%      ;
+;     Processor 3            ;   2.6%      ;
+;     Processor 4            ;   2.5%      ;
 +----------------------------+-------------+
 
 
@@ -2789,25 +2789,25 @@ Info (176353): Automatically promoted node ControleALU:ALUcontrol|Mux1~0  File: 
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:15
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:10
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:08
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:03
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:32
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:21
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 3% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 33% of the available device resources in the region that extends from location X69_Y49 to location X80_Y60
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:35
-Info (11888): Total time spent on timing analysis during the Fitter is 9.27 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:24
+Info (11888): Total time spent on timing analysis during the Fitter is 6.55 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:07
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:06
 Warning (169177): 25 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin CLOCK2_50 uses I/O standard 3.3-V LVTTL at AG14 File: /media/grobs/DOC/GitHub Clones/2019/OC2/MIPS-PIPELINE_FPGA/MIPS_PIPELINE_FPGA/MIPS_PIPELINE_FPGA.v Line: 66
     Info (169178): Pin CLOCK3_50 uses I/O standard 3.3-V LVTTL at AG15 File: /media/grobs/DOC/GitHub Clones/2019/OC2/MIPS-PIPELINE_FPGA/MIPS_PIPELINE_FPGA/MIPS_PIPELINE_FPGA.v Line: 67
@@ -2836,10 +2836,10 @@ Warning (169177): 25 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 
     Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: /media/grobs/DOC/GitHub Clones/2019/OC2/MIPS-PIPELINE_FPGA/MIPS_PIPELINE_FPGA/MIPS_PIPELINE_FPGA.v Line: 65
 Info (144001): Generated suppressed messages file /media/grobs/DOC/GitHub Clones/2019/OC2/MIPS-PIPELINE_FPGA/MIPS_PIPELINE_FPGA/MIPS_PIPELINE_FPGA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 1813 megabytes
-    Info: Processing ended: Thu Sep 19 17:45:19 2019
-    Info: Elapsed time: 00:02:03
-    Info: Total CPU time (on all processors): 00:03:51
+    Info: Peak virtual memory: 1827 megabytes
+    Info: Processing ended: Tue Sep 24 16:52:05 2019
+    Info: Elapsed time: 00:01:20
+    Info: Total CPU time (on all processors): 00:02:25
 
 
 +----------------------------+

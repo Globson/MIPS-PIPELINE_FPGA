@@ -1,5 +1,5 @@
 Timing Analyzer report for MIPS_PIPELINE_FPGA
-Thu Sep 19 17:45:34 2019
+Tue Sep 24 16:52:18 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -142,14 +142,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.31        ;
+; Average used               ; 1.30        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  10.4%      ;
-;     Processor 3            ;  10.3%      ;
-;     Processor 4            ;  10.3%      ;
+;     Processor 2            ;  10.2%      ;
+;     Processor 3            ;  10.1%      ;
+;     Processor 4            ;  10.1%      ;
 +----------------------------+-------------+
 
 
@@ -5198,7 +5198,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 19 17:45:26 2019
+    Info: Processing started: Tue Sep 24 16:52:11 2019
 Info: Command: quartus_sta MIPS_PIPELINE_FPGA -c MIPS_PIPELINE_FPGA
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -5349,9 +5349,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 1014 megabytes
-    Info: Processing ended: Thu Sep 19 17:45:34 2019
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 1016 megabytes
+    Info: Processing ended: Tue Sep 24 16:52:18 2019
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:08
 
 
