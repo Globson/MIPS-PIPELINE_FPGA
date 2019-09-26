@@ -1,281 +1,65 @@
 ------------------------------------------------------------
-Timing Analyzer Summary
+TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'DivisorClk:CLK|clk_out'
-Slack : -7.762
-TNS   : -13670.717
-
-Type  : Slow 1200mV 85C Model Setup 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : -5.730
-TNS   : -159.864
-
-Type  : Slow 1200mV 85C Model Setup 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : -5.401
-TNS   : -14.561
-
-Type  : Slow 1200mV 85C Model Setup 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : -4.946
-TNS   : -130.716
-
-Type  : Slow 1200mV 85C Model Setup 'KEY[2]'
-Slack : -4.332
-TNS   : -229.635
-
 Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
-Slack : -4.296
-TNS   : -70.694
-
-Type  : Slow 1200mV 85C Model Setup 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : -1.703
-TNS   : -7.509
-
-Type  : Slow 1200mV 85C Model Hold 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : 0.235
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'DivisorClk:CLK|clk_out'
-Slack : 0.405
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.457
+Slack : 16.049
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
-Slack : 0.655
+Slack : 0.654
 TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'KEY[2]'
-Slack : 0.692
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : 0.889
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : 1.019
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Recovery 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : -2.952
-TNS   : -14.201
-
-Type  : Slow 1200mV 85C Model Removal 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.926
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[2]'
-Slack : -3.000
-TNS   : -85.240
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -3.000
-TNS   : -45.405
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DivisorClk:CLK|clk_out'
-Slack : -1.285
-TNS   : -3795.890
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : 0.413
+Slack : 9.681
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : 0.417
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 16.000
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.420
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK3_50'
+Slack : 16.000
 TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : 0.452
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Setup 'DivisorClk:CLK|clk_out'
-Slack : -6.944
-TNS   : -12372.541
-
-Type  : Slow 1200mV 0C Model Setup 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : -5.324
-TNS   : -147.730
-
-Type  : Slow 1200mV 0C Model Setup 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : -5.044
-TNS   : -13.420
-
-Type  : Slow 1200mV 0C Model Setup 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : -4.562
-TNS   : -120.236
 
 Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
-Slack : -3.900
-TNS   : -60.174
-
-Type  : Slow 1200mV 0C Model Setup 'KEY[2]'
-Slack : -3.873
-TNS   : -204.809
-
-Type  : Slow 1200mV 0C Model Setup 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : -1.654
-TNS   : -7.121
-
-Type  : Slow 1200mV 0C Model Hold 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.351
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'DivisorClk:CLK|clk_out'
-Slack : 0.355
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : 0.387
+Slack : 16.407
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
-Slack : 0.599
+Slack : 0.597
 TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'KEY[2]'
-Slack : 0.631
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : 0.981
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : 1.008
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Recovery 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : -2.627
-TNS   : -12.651
-
-Type  : Slow 1200mV 0C Model Removal 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.870
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[2]'
-Slack : -3.000
-TNS   : -85.240
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -3.000
-TNS   : -45.405
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DivisorClk:CLK|clk_out'
-Slack : -1.285
-TNS   : -3795.890
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : 0.345
+Slack : 9.656
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : 0.356
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 16.000
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.368
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK3_50'
+Slack : 16.000
 TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : 0.414
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'DivisorClk:CLK|clk_out'
-Slack : -3.733
-TNS   : -5777.113
-
-Type  : Fast 1200mV 0C Model Setup 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : -2.348
-TNS   : -6.755
-
-Type  : Fast 1200mV 0C Model Setup 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : -2.323
-TNS   : -62.323
-
-Type  : Fast 1200mV 0C Model Setup 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : -2.028
-TNS   : -50.753
 
 Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
-Slack : -1.687
-TNS   : -18.699
-
-Type  : Fast 1200mV 0C Model Setup 'KEY[2]'
-Slack : -1.676
-TNS   : -80.011
-
-Type  : Fast 1200mV 0C Model Setup 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : -0.637
-TNS   : -2.736
-
-Type  : Fast 1200mV 0C Model Hold 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : -0.176
-TNS   : -0.176
-
-Type  : Fast 1200mV 0C Model Hold 'DivisorClk:CLK|clk_out'
-Slack : 0.180
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : 0.200
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : 0.248
+Slack : 18.015
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
-Slack : 0.299
+Slack : 0.298
 TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'KEY[2]'
-Slack : 0.315
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.442
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Recovery 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : -1.233
-TNS   : -5.839
-
-Type  : Fast 1200mV 0C Model Removal 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.720
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[2]'
-Slack : -3.000
-TNS   : -105.496
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -3.000
-TNS   : -45.709
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DivisorClk:CLK|clk_out'
-Slack : -1.000
-TNS   : -2954.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Forwarding:Forward_Module|ForwardB_Out[0]'
-Slack : 0.368
+Slack : 9.264
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ID_EXE:REG_ID_EXE|EX_ALUOp_Out[1]'
-Slack : 0.372
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 16.000
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'IF_ID:REG_IF_ID|ID_Instruction_Out[26]'
-Slack : 0.373
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Forwarding:Forward_Module|ForwardA_Out[0]'
-Slack : 0.418
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK3_50'
+Slack : 16.000
 TNS   : 0.000
 
 ------------------------------------------------------------
